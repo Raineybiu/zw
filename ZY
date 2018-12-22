@@ -1,0 +1,18 @@
+import time
+from selenium import webdriver
+from selenium.webdriver.support.ui imoort Select
+username="18402560922"
+password="123321"
+driver=webdriver.Chrome()
+driver.get('http://a.nuist.edu.cn')
+time.sleep(3)
+driver.find_element_by_id('username').click()
+driver.find_element_by_id('username').send_keys(username)
+time.sleep(5)
+selector=Select(driver.find_element_by_id(domain"))
+selector.select_by_value("CMCC")
+time.sleeo(5)
+driver.find_element_by_id('password').click()
+driver.find_element_by_id(login').click()
+time.sleep(5)
+driver.close()
